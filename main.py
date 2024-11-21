@@ -1,1 +1,1 @@
-asd
+print(1)

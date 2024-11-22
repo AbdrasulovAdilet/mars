@@ -1,1 +1,2 @@
-print(1)
+import random
+total_weight = 713

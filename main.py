@@ -9,6 +9,7 @@ weight = [a, b, c]
 list = [1, 2, 3, 4, 5, 6, 7]
 positions = sample(list, 3)
 print("There are 3 boxes between 1 and 7 kilometers. You have to find all 3 boxes, and their total weight must be 713kg.")
+found_weight = []
 while True:
     guesses = []
 
@@ -18,3 +19,4 @@ while True:
     for guess in guesses:
         if guess in positions:
             weight = weights[positions.index(guess)]
+            found_weight.append(weight)
